@@ -1,0 +1,41 @@
+{
+    "Hmmer": 
+    	{"Max_eval": 0.001, "DB_path": "/home/pratima/Documents/regulator/modeldbs/regulatormodeldbs"},
+    "Genomes": 
+        [
+
+		{"Name": "Alteromonas macleodii ATCC 27126", "Tax_ID": "529120", "Biosample": "SAMN02603229", "Assembly": "GCA_000172635.2", "Chromids": ["NC_018632.1"]},
+		{"Name": "Alteromonas macleodii str. 'Balearic Sea AD45'", "Tax_ID": "1004787", "Biosample": "SAMN02604120", "Assembly": "GCA_000300175.1", "Chromids": ["NC_018679.1", "NC_018680.1"]},
+		{"Name": "Vibrio coralliilyticus OCN014", "Tax_ID": "190893", "Biosample": "SAMN03010512", "Assembly": "GCA_000763535.1", "Chromids": ["NZ_CP009264.1", "NZ_CP009265.1", "NZ_CP009266.1"]},
+		{"Name": "Vibrio alginolyticus NBRC 15630 = ATCC 17749", "Tax_ID": "1219076", "Biosample": "SAMN02603463", "Assembly": "GCA_000354175.2", "Chromids": ["NC_022349.1", "NC_022359.1"]},
+		{"Name": "Vibrio harveyi ATCC 33843 (392 [MAV])", "Tax_ID": "669", "Biosample": "SAMN03075601", "Assembly": "GCA_000770115.2", "Chromids": ["NZ_CP009467.1", "NZ_CP009468.1"]},
+		{"Name": "Roseobacter denitrificans OCh 114", "Tax_ID": "375451", "Biosample": "SAMN02602987", "Assembly": "GCA_000014045.1", "Chromids": ["NC_008209.1", "NC_008386.1", "NC_008387.1", "NC_008388.1", "NC_008389.1"]},
+		{"Name": "Marinovum algicola CECT 5396", "Tax_ID": "42444", "Biosample": "SAMEA102060418", "Assembly": "GCA_900172245.1", "Chromids": ["NZ_FWFM01000000"]},
+		{"Name": "Marinovum algicola DG 898", "Tax_ID": "988812", "Biosample": "SAMN03840244", "Assembly": "GCA_001046955.1", "Chromids": ["CP010855.1", "CP010856.1", "CP010857.1", "CP010858.1", "CP010859.1", "CP010860.1", "CP010861.1", "CP010862.1", "CP010863.1", "CP010864.1", "CP010865.1", "CP010866.1"]},
+		{"Name": "Pseudoalteromonas atlantica T6c", "Tax_ID": "342610", "Biosample": "SAMN02598305", "Assembly": "GCA_000014225.1", "Chromids": ["NC_008228.1"]},
+		{"Name": "Ruegeria sp. TM1040", "Tax_ID": "292414", "Biosample": "SAMN02598292", "Assembly": "GCA_000014065.1", "Chromids": ["NC_008044.1", "NC_008043.1", "NC_008042.1"]},
+		{"Name": "Citrobacter freundii NCTC9750", "Tax_ID": "546", "Biosample": "SAMEA2612490", "Assembly": "GCA_900635425.1", "Chromids": ["LR134118.1"]},
+		{"Name": "Enterococcus faecium EnGen0147 strain A17 Sv1", "Tax_ID": "1157442", "Biosample": "SAMN00808972", "Assembly": "GCF_000392125.1", "Chromids": ["NZ_KB932727.1" , "NZ_KB932726.1", "NZ_KB932725.1", "NZ_KB932724.1", "NZ_KB932723.1", "NZ_KB932722.1", "NZ_KB932721.1"]},
+		{"Name": "Pseudomonas syringae pv. Tomato PT23", "Tax_ID": "323", "Biosample": "SAMN06157973", "Assembly": "GCA_002024925.1", "Chromids": ["NZ_MSDS01000001:NZ_MSDS01000143"]},
+		{"Name": "Escherichia coli W3110", "Tax_ID": "316407", "Biosample": "SAMD00061081", "Assembly": "GCA_000010245.1", "Chromids": ["NC_007779.1"]},
+		{"Name": "Escherichia coli DH5alpha", "Tax_ID": "668369", "Biosample": "SAMN03107817", "Assembly": "GCA_000982435.1", "Chromids": ["NZ_JRYM01000001:NZ_JRYM01000089"]},
+		{"Name": "Escherichia coli strain 77.3009.5", "Tax_ID": "562", "Biosample": "SAMN03081277", "Assembly": "GCA_000783335.1", "Chromids": ["NZ_JRPP01000001:NZ_JRPP01000359"]},
+		{"Name": "Escherichia coli KSC9", "Tax_ID": "562", "Biosample": "SAMN06093946", "Assembly": "GCA_002163655.1", "Chromids": ["NZ_CP018323.1"]},
+		{"Name": "Escherichia coli KSC64", "Tax_ID": "562", "Biosample": "SAMN06165994", "Assembly": "GCA_002163695.1", "Chromids": ["NZ_CP018840.1"]},
+		{"Name": "Escherichia coli KSC207", "Tax_ID": "562", "Biosample": "SAMN06165999", "Assembly": "GCA_002163955.1", "Chromids": ["CP019558.1", "CP019559.1"]},
+		{"Name": "Escherichia coli KSC1031", "Tax_ID": "562", "Biosample": "SAMN06166007", "Assembly": "GCA_002163935.1", "Chromids": ["NZ_CP019560.1", "NZ_CP019561.1"]},
+		{"Name": "Salmonella enterica subsp. enterica serovar Typhimurium S7", "Tax_ID": "90371", "Biosample": "SAMN03031254", "Assembly": "GCA_000784215.1", "Chromids": ["NZ_JRGS01000001:NZ_JRGS01000146"]},
+		{"Name": "Salmonella enterica subsp. enterica serovar Typhimurium S15", "Tax_ID": "90371", "Biosample": "SAMN03031217", "Assembly": "GCA_000784245.1", "Chromids": ["NZ_JRGR01000001:NZ_JRGR01000148"]},
+		{"Name": "Salmonella enterica subsp. enterica serovar Typhimurium S23", "Tax_ID": "90371", "Biosample": "SAMN03031271", "Assembly": "GCA_000784235.1", "Chromids": ["NZ_JRGT01000001:NZ_JRGT01000148"]},
+		{"Name": "Xanthomonas euvesicatoria LMG930", "Tax_ID": "456327", "Biosample": "SAMN05823152", "Assembly": "GCA_001908795.1", "Chromids": ["NZ_CP018467.1", "NZ_CP018466.1", "NZ_CP018466.1", "NZ_CP018464.1", "NZ_CP018463.1"]},
+		{"Name": "Xanthomonas vesicatoria ATCC 35937 LMG911", "Tax_ID": "925775", "Biosample": "SAMN05823154", "Assembly": "GCA_001908725.1", "Chromids": ["NZ_CP018725.1", "NZ_CP018726.1", "NZ_CP018727.1"]},
+		{"Name": "Xanthomonas vesicatoria LM159", "Tax_ID": "56460", "Biosample": "SAMN05823142", "Assembly": "GCA_001908815.1", "Chromids": ["NZ_CP018470.1", "NZ_CP018468.1", "NZ_CP018471.1", "NZ_CP018469.1"]},
+		{"Name": "Xanthomonas perforans LH3", "Tax_ID": "442694", "Biosample": "SAMN05823509", "Assembly": "GCA_001908855.1", "Chromids": ["NZ_CP018475.1", "NZ_CP018472.1", "NZ_CP018476.1", "NZ_CP018474.1", "NZ_CP018473.1"]},
+		{"Name": "Xanthomonas hortorum pv. gardneri strain JS749-3 ", "Tax_ID": "2754056", "Biosample": "SAMN05823149", "Assembly": "GCA_001908755.1", "Chromids": ["NZ_CP018728.1", "NZ_CP018729.1", "NZ_CP018730.1"]},
+		{"Name": "Xanthomonas hortorum pv. gardneri strain ICMP 7383", "Tax_ID": "2754056", "Biosample": "SAMN05823150", "Assembly": "GCA_001908775.1", "Chromids": ["NZ_CP018731.1", "NZ_CP018732.1", "NZ_CP018733.1", "NZ_CP018734.1"]},
+		{"Name": "Xanthomonas citri pv. citri strain 03-1638-1-1", "Tax_ID": "611301", "Biosample": "SAMN07611881", "Assembly": "GCA_002952295.1", "Chromids": ["NZ_CP023285.1", "NZ_CP023286.1", "NZ_CP023287.1"]}
+
+        ],
+     "TFParse":{"AMCUKW":"CUKW"}
+     
+}
