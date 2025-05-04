@@ -14,7 +14,7 @@ import os, os.path, csv, datetime, copy
 from os import path
 import subprocess
 
-Entrez.email ="pgautam1@umbc.edu"
+Entrez.email ="abc@abc.com"
 
 def call_hmmer(hmmscan_arg):
     
@@ -37,7 +37,7 @@ def run_hmmer(hmminputfile, eval, DB_path):
     
 def parse(biosampleacc):
     biosample= samplelist.partition(" ") [0]
-    print(biosample)
+    #print(biosample)
     handle = Entrez.esearch(db="nuccore",term=(biosampleacc), idtype='acc',retmax=400, usehistory="y")
 #   Entrez.parse(handle)
     Element =ET.parse(handle)
@@ -45,7 +45,6 @@ def parse(biosampleacc):
     reflist= []
     gbklist= []
     genomelist = []
-
     
     for IdList in xmlElement.findall("IdList"):
         for Id in IdList.iter("Id"):
@@ -60,8 +59,7 @@ def parse(biosampleacc):
         else:
             genomelist =reflist
             
-    outputfile= "/home/pratima/Documents/regulator/genome/"+ biosampleacc +".fasta"
-    #"/home/pratima/Documents/"+ biosampleacc +".fasta"
+    outputfile= "../regulator/genome/"+ biosampleacc +".fasta"
     out_handle = open(outputfile, "w")
     
     for genomeid in genomelist:     
@@ -73,9 +71,9 @@ def parse(biosampleacc):
         
     out_handle.close()
 # open and read json file, assign biosampleId to a list. iterate list and assign to a variable
-Inputfilename = "../inputmarine.json"
-fastapath= "/home/pratima/Documents/regulator/genome/"
-with open('inputmarine.json') as json_file:
+Inputfilename = "../input.json"
+fastapath= "../regulator/genome/"
+with open('input.json') as json_file:
     data = json.load(json_file)
     
 # create a variable to hold dbPath value for later use.
@@ -84,7 +82,7 @@ DB_path = data["Hmmer"]["DB_path"]
 
  # create a fasta file using hmm scan, for genome accession number from json file. 
 biosampleid = []    
-for genome in data['Genomes']:
+for genome in data['Genomes']: #from json file
     biosampleid.append(genome["Biosample"] + " " + genome["Name"])
     
 #print(biosampleid)
@@ -99,5 +97,5 @@ for f in os.listdir(fastapath):
         fastafile_list.append(f)
 for fastafile in fastafile_list:
     hmminputfile= fastapath+fastafile
-    hmmscan_output="/home/pratima/Documents/regulator/output/"+ fastafile +".tab"
-    run_hmmer(hmminputfile, eval, DB_path) #outputfile is an input for HMMER search.
+    hmmscan_output="../regulator/output/"+ fastafile +".tab"
+    run_hmmer(hmminputfile, eval, DB_path) #outputfile from parse(biosampleacc) is an input for HMMER search.
