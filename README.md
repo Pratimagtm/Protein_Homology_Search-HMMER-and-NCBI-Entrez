@@ -1,4 +1,4 @@
-# comparative_genomics_protien
+# Protein_Homology_Search-HMMER-and-NCBI-Entrez
 
 This script performs a homology search of proteins of interest within a target genome using HMMER and NCBI Entrez tools. The key steps include downloading protein HMM profiles and preparing the HMM search model, fetching protein sequences from NCBI using a BioSample or BioProject accession number, performing the homology search using hmmscan, and converting the output to a readable CSV file.
 
