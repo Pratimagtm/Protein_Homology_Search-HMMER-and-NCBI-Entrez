@@ -1,6 +1,6 @@
 {
     "Hmmer": 
-    	{"Max_eval": 0.001, "DB_path": "/home/pratima/Documents/regulator/modeldbs/regulatormodeldbs"},
+    	{"Max_eval": 0.001, "DB_path": "../regulator/modeldbs/regulatormodeldbs"},
     "Genomes": 
         [
 
